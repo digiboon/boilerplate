@@ -5,7 +5,7 @@
  */
 $app->isFrontPage(function() use($app) {
 
-	// Front page.
+	$app->template('front-page');
 
 });
 
