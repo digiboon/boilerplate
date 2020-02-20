@@ -36,6 +36,16 @@ class App extends Framework {
 	}
 
 	/**
+	 * Return global template data.
+	 *
+	 * @return array
+	 */
+	public function getTemplateData(): array
+	{
+		return [];
+	}
+
+	/**
 	 * Requires the actions file.
 	 */
 	public function action(): void

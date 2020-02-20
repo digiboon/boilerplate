@@ -35,6 +35,11 @@ if(class_exists('Framework')) {
 	$app->registerTemplateHelpers( $app->getTemplateHelpers() );
 
 	/**
+	 * Set global template data.
+	 */
+	$app->setTemplateData( $app->getTemplateData() );
+
+	/**
 	 * Action!
 	 */
 	$app->action();
